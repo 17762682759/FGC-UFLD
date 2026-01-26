@@ -10,8 +10,7 @@ Frequency-Aware Gradient Correction for Unified Facial Landmark Detection
 
 <p align="center">
 <a href="#">📑 Paper (under review)</a> •
-<a href="https://github.com/17762682759/FGC-UFLD">💻 Code</a> •
-<a href="#">📦 Models (to be released)</a>
+<a href="https://github.com/17762682759/FGC-UFLD">💻 Code</a> 
 </p>
 
 <p align="center">
@@ -48,7 +47,7 @@ Qingjia Li
 
 School of Computer Science
 
-China Three Gorges Universit
+China Three Gorges University
 
 ## 📧 Email:
 
