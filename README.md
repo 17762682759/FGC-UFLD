@@ -14,7 +14,7 @@ Frequency-Aware Gradient Correction for Unified Facial Landmark Detection
 </p>
 
 <p align="center">
-  <img src="https://github.com/17762682759/FGC-UFLD/FGC-UFLD.png" width="750"/>
+  <img src="FGC-UFLD.png" width="1000"/>
 </p>
 
 ---
