@@ -156,8 +156,8 @@ class Solver(object):
             '300W': self._300w_landmark_index,
             'WFLW': self._wflw_landmark_index
         }
-        self.heatmap_size = config.MODEL.HEATMAP_SIZE  # [128, 128]
-        self.image_size = config.MODEL.IMAGE_SIZE  # [128, 128]
+        self.heatmap_size = config.MODEL.HEATMAP_SIZE 
+        self.image_size = config.MODEL.IMAGE_SIZE  
         self.gamma = config.gamma  # 3
 
         # ===== LR 调度配置（新增） =====
@@ -352,7 +352,7 @@ class Solver(object):
             images = torch.cat(images_mix, dim=0).to(self.device)
             outputs = self.model(images)
 
-            split_outputs = torch.split(outputs, split_size_or_sections=1, dim=0)
+            split_outputs = torch.split(outputs, split_size_or_sections=2, dim=0)
             all_losses = []
             for j in range(4):
                 outputs_alone = split_outputs[j]
