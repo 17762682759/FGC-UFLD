@@ -39,7 +39,7 @@ Please refer to the paper for preprocessing and evaluation protocols.
 After preparing the datasets, FGC-UFLD can be trained with:
 
 ```bash
-python main.py
+python Main.py
 ```
 
 ## 📬 Contact
